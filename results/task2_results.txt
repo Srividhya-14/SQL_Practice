@@ -1,0 +1,24 @@
+'TASK 2.1 - Top 5 Highest Paid Employees'
+-----------------------------------------
+TASK 2.1 - Top 5 Highest Paid Employees  
+employee_id  name          department   salary  hire_date 
+-----------  ------------  -----------  ------  ----------
+100          Employee_100  HR           170000  2015-04-11
+99           Employee_99   Finance      168800  2015-04-10
+98           Employee_98   Marketing    167600  2015-04-09
+97           Employee_97   Sales        166400  2015-04-08
+96           Employee_96   Engineering  165200  2015-04-07
+'TASK 2.2 - 3 Most Recently Hired Engineers'
+--------------------------------------------
+TASK 2.2 - 3 Most Recently Hired Engineers  
+employee_id  name         department   salary  hire_date 
+-----------  -----------  -----------  ------  ----------
+96           Employee_96  Engineering  165200  2015-04-07
+90           Employee_90  Engineering  158000  2015-04-01
+84           Employee_84  Engineering  150800  2015-03-26
+'TASK 2.3 - Oldest Employee earning >70000 and not in HR'
+---------------------------------------------------------
+TASK 2.3 - Oldest Employee earning >70000 and not in HR  
+employee_id  name         department   salary  hire_date 
+-----------  -----------  -----------  ------  ----------
+17           Employee_17  TechSupport  70400   2015-01-18
