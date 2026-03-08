@@ -30,7 +30,7 @@ The dataset includes **100 employees** distributed across the following departme
 * HR
 * TechSupport
 
-![Table Creation](https://github.com/user-attachments/assets/276492f0-2b95-404c-96b8-78f1d7ffa45b>
+![Table Creation](https://github.com/user-attachments/assets/276492f0-2b95-404c-96b8-78f1d7ffa45b)
 
 
 ---
