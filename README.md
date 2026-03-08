@@ -28,7 +28,10 @@ The dataset includes **100 employees** distributed across the following departme
 * Marketing
 * Finance
 * HR
-* Operations
+* TechSupport
+
+![Table Creation](https://github.com/user-attachments/assets/276492f0-2b95-404c-96b8-78f1d7ffa45b>
+
 
 ---
 
@@ -67,6 +70,8 @@ FROM employees
 WHERE salary > 90000;
 ```
 
+![Result](https://github.com/user-attachments/assets/a7b5d7f8-d821-4ab9-b5a2-41dc625a0ff7)
+
 ---
 
 ### 1.3 Employees in Sales or Finance
@@ -83,6 +88,9 @@ WHERE department IN ('Sales','Finance');
 ```
 
 ---
+
+![Result](https://github.com/user-attachments/assets/f1a1f45e-76c0-400f-97d2-ef33e19a499e)
+
 
 # Task 2 – Sorting and Limiting
 
@@ -135,6 +143,8 @@ ORDER BY hire_date ASC
 LIMIT 1;
 ```
 
+![Result](https://github.com/user-attachments/assets/8317b9e2-daa5-4b1e-b6be-4c26125bdb5d)
+
 ---
 
 # Task 3 – Calculated Fields and Aliases
@@ -155,6 +165,9 @@ FROM employees
 WHERE salary > 60000;
 ```
 
+
+![Result](https://github.com/user-attachments/assets/9afd23bc-8492-4a4e-af8c-22ee3de6f126)
+
 ---
 
 ### 3.2 Finance Department Salary Report
@@ -174,16 +187,18 @@ WHERE department='Finance'
 ORDER BY salary DESC;
 ```
 
+![Result](https://github.com/user-attachments/assets/cd0f2651-8219-42ee-a391-1395595cb53c)
+
+
 ---
 
 # 3. Running the Project
-
-Anyone can reproduce the project locally using SQLite.
+Requirement - sqlite3 installed locally
 
 ### Step 1 – Clone the repository
 
 ```
-git clone <repository-url>
+git clone <repourl>
 cd SQL_Practice
 ```
 
@@ -207,7 +222,7 @@ Example:
 sqlite3 data/employees.db < sql/task1_basic_queries.sql
 ```
 
-You can also generate stored outputs:
+Generate stored outputs:
 
 ```
 sqlite3 data/employees.db < sql/task1_basic_queries.sql > results/task1_results.txt
